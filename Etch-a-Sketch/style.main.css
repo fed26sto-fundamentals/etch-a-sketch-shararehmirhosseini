@@ -1,0 +1,35 @@
+
+.pattern{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 450px;
+    height: 450px;
+   
+}
+.secondaryBtn{
+    flex: 0 0 1;
+    height: 50px;
+    width: 100px;
+    margin: 20px;
+    border-radius: 8px;
+
+    font-family:'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: 550;
+    color: #858484;
+    background-color: #f5f5f5;
+    border: solid 0.5px #bebebe;
+}
+.box {
+    flex: 0 0 1;
+    background-color: #f5f5f5;
+    border: solid 0.5px #dbdbdb;
+    box-sizing: border-box;
+
+}
